@@ -16,7 +16,7 @@
 
 <resources>
     <style name="ReadingTheme" parent="@android:Theme.NoTitleBar">
-        <item name="android:windowBackground">@drawable/lookup_bg</item>
+        <item name="android:windowBackground">@drawable/paper_texture</item>
         <item name="android:background">@android:color/white</item>
         
         <!-- own values: colors -->

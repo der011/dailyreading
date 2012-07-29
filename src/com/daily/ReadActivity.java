@@ -25,6 +25,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.MotionEvent;
+import android.view.View;
 import android.webkit.WebSettings.TextSize;
 import android.widget.Toast;
 
@@ -82,7 +83,7 @@ public class ReadActivity extends AbstractReadingActivity implements SwipeDetect
         
         ActivitySwipeDetector activitySwipeDetector = new ActivitySwipeDetector(this, this.readingArea);
         this.readingArea.setOnTouchListener(activitySwipeDetector);        
-        
+        readingArea.setLayerType(View.LAYER_TYPE_SOFTWARE, null);
         readingArea.setBackgroundColor(0);
         readingArea.setBackgroundResource(R.drawable.paper_texture);
         String selectedFont = this.prefs.getString(Preferences.PREF_FONT_SIZE, "NORMAL");
