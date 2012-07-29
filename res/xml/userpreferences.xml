@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<CheckBoxPreference android:key="PREF_AUTO_UPDATE"
+		android:title="@string/auto_refresh" android:summary="@string/select_to_auto_refresh"
+		android:defaultValue="true" />
+
+	<ListPreference android:key="PREF_FONT_SIZE" android:title="@string/font_size"
+		android:summary="@string/choose_font_size" android:entries="@array/font_names"
+		android:entryValues="@array/font_values" android:defaultValue="NORMAL" />
+		
+	<ListPreference android:key="PREF_ARCHIVE_SIZE" android:title="@string/choose_archive_size"
+		android:summary="@string/archive_size" android:entries="@array/archive_size_names"
+		android:entryValues="@array/archive_size_values" android:defaultValue="UNLIMITED" />
+
+	<!-- <ListPreference -->
+	<!-- android:key="PREF_UPDATE_FREQ" -->
+	<!-- android:title="Refresh frequency" -->
+	<!-- android:summary="Frequency at which to refresh earthquake list" -->
+	<!-- android:entries="@array/update_freq_options" -->
+	<!-- android:entryValues="@array/update_freq_values" -->
+	<!-- android:dialogTitle="Refresh frequency" -->
+	<!-- android:defaultValue="60" -->
+	<!-- /> -->
+	<!-- <ListPreference -->
+	<!-- android:key="PREF_MIN_MAG" -->
+	<!-- android:title="Minimum magnitude" -->
+	<!-- android:summary="Select the minimum magnitude earthquake to report" -->
+	<!-- android:entries="@array/magnitude_options" -->
+	<!-- android:entryValues="@array/magnitude" -->
+	<!-- android:dialogTitle="Magnitude" -->
+	<!-- android:defaultValue="3" -->
+	<!-- /> -->
+</PreferenceScreen>

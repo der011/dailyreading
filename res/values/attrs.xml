@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <declare-styleable name="cgCompassMini">
+    <attr name="skin" format="integer" />
+  </declare-styleable>
+
+  <!-- colors -->
+  <attr name="just_color" format="color" />
+  <attr name="text_color" format="color" />
+  <attr name="text_color_headline" format="color" />
+  <attr name="text_color_grey" format="color" />
+  <attr name="text_color_hint" format="color" />
+  <attr name="text_color_link" format="color" />
+  <attr name="button_color_enabled" format="color" />
+  <attr name="button_color_disabled" format="color" />
+  <attr name="background_color" format="color" />
+  <attr name="background_color_notice" format="color" />
+  <attr name="background_color_transparent" format="color" />
+  <attr name="separator_color" format="color" />
+
+  <!-- drawables -->
+  <attr name="button" format="integer" />
+  <attr name="input" format="integer" />
+  <attr name="inventory" format="integer" />
+  <attr name="favourite" format="integer" />
+  <attr name="favourite_r" format="integer" />
+  <attr name="favourite_o" format="integer" />
+  <attr name="favourite_g" format="integer" />
+  <attr name="close" format="integer" />
+  <attr name="log_img_icon" format="integer" />
+
+  <!-- others -->
+  <attr name="compass" format="integer" />
+  
+    <declare-styleable name="PageCurlView">
+        <!-- Enable/Disable debug mode -->
+        <attr name="enableDebugMode" format="boolean" />
+        <!-- Curl speed  the animation moves in px/frame -->
+        <attr name="curlSpeed" format="integer" />      
+        <!-- FPS our animation will run -->
+        <attr name="updateRate" format="integer" />     
+        <!-- Pixel offset the page will have from the curl edge -->
+        <attr name="initialEdgeOffset" format="integer" />
+        <!-- The curl mode to apply -->
+        <attr name="curlMode">
+            <enum name="Simple" value="0" />
+            <enum name="Dynamic" value="1" />
+        </attr>
+    </declare-styleable>  
+</resources>

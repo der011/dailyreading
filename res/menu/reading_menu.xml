@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--     <item android:id="@+id/menu_previous" -->
+<!--           android:icon="@drawable/ic_menu_back" -->
+<!--           android:title="@string/menu_item_previous" /> -->
+
+    <item android:id="@+id/menu_show_today"
+          android:icon="@drawable/ic_menu_goto"
+          android:title="@string/menu_item_goto_today" />
+
+          
+<!--     <item android:id="@+id/menu_next" -->
+<!--           android:icon="@drawable/ic_menu_forward" -->
+<!--           android:title="@string/menu_item_next" /> -->
+
+    <item android:id="@+id/menu_preferences"
+          android:icon="@drawable/ic_menu_preferences"
+          android:title="@string/menu_item_config" />
+          
+    <item android:id="@+id/menu_archive"
+          android:icon="@drawable/ic_menu_archive"
+          android:title="@string/menu_item_archive" />
+          
+    <item android:id="@+id/menu_refresh"
+          android:icon="@drawable/ic_menu_refresh"
+          android:title="@string/menu_item_refresh" />
+                  
+    <item android:id="@+id/menu_exit"
+          android:icon="@drawable/ic_menu_close_clear_cancel"
+          android:title="@string/menu_item_exit"/>
+</menu>

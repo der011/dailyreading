@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Slovo na každý den</string>
+    <string name="app_name">Slovo na každý den</string>
+    <string name="sax">Classic SAX</string>
+    <string name="dom">DOM</string> 
+    <string name="pull">XML Pull</string>
+    <string name="daily_reading_preferences">Nastavení aplikace</string>
+
+    
+    <!-- ReadingActivity -->
+    <string name="please_wait">Prosím čekejte...</string>
+    <string name="receiving_data">Získávám data ...</string>
+    <string name="could_not_load_trying_previous">Nelze načíst aktuální text, hledám předchozí....</string>
+    <string name="could_not_load_data_from_internet">Nelze načíst data z internetu.</string>
+    <string name="could_not_load_previous_data">Žádná přechozí data.</string>
+    <string name="could_not_load_next_data">Žádná další data.</string>
+    <string name="word_from_day">Slovo ze dne</string>
+    <string name="no_need_to_refresh">Obsah je aktuální...</string> 
+    <string name="try_again_or_exit">Zkusit znovu nebo ukončit aplikaci?</string>
+    <string name="try_again">Zkusit znovu</string>
+    <string name="exit">Ukončit</string>
+    
+    <!-- ReadingActivity  Menu -->
+    <string name="menu_item_config">Nastavení</string>
+    <string name="menu_item_refresh">Znovu načíst</string>
+    <string name="menu_item_exit">Konec</string>
+    <string name="menu_item_archive">Archív</string>
+    <string name="menu_item_goto_today">Zobrazit dnešní</string>
+    <string name="menu_item_previous">Předchozí</string>
+    <string name="menu_item_next">Následující</string>
+    
+    <!-- Preferences --> 
+    <string name="auto_refresh">Automatická aktualizace</string>
+    <string name="select_to_auto_refresh">Zvolte, pokud chcete načítat nová data automaticky..</string>
+    <string name="font_size_small">Malé</string>
+    <string name="font_size_normal">Střední</string>
+    <string name="font_size_large">Velké</string>
+    <string name="font_size">Velikost písma</string>
+    <string name="archive_size_day">Jeden den</string>
+    <string name="archive_size_week">Týden</string>
+    <string name="archive_size_month">Měsíc</string>
+    <string name="archive_size_year">Rok</string>
+    <string name="archive_size_unlimited">Neomezeně</string>
+    
+    <string name="choose_font_size">Zvolte velikost písma</string>
+    <string name="choose_archive_size">Zvolte velikost archivu</string>
+    <string name="archive_size">Počet uchovávaných záznamů. \n<b>Varování: pokud změníte hodnotu, starší data budou automaticky vymazána!!!</b></string>
+    
+    <!--ArticlesListActivity  Menu -->
+    <string name="list_of_all_articles">Archiv slova pro každý den</string>
+</resources>

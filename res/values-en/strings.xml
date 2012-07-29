@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Slovo na každý den</string>
+	<string name="app_name">Daily reading</string>
+	<string name="sax">Classic SAX</string>
+	<string name="dom">DOM</string>
+	<string name="pull">XML Pull</string>
+	<string name="daily_reading_preferences">Daily Reading Preferences</string>
+	
+
+	<!-- ReadingActivity -->
+	<string name="please_wait">Please wait...</string>
+	<string name="receiving_data">Retrieving data ...</string>
+	<string name="could_not_load_trying_previous">Could not load todays word, trying to display
+		previous...</string>
+	<string name="could_not_load_data_from_internet">Could not load data from internet</string>
+	<string name="could_not_load_previous_data">No previous data.</string>
+	<string name="could_not_load_next_data">No further data.</string>
+	<string name="word_from_day">Word from day</string>
+	<string name="no_need_to_refresh">Content is up to date...</string>
+	<string name="try_again_or_exit">Do you want to try again or exit?</string>
+	<string name="try_again">Try again</string>
+	<string name="exit">Exit</string>
+
+	<!-- ReadingActivity Menu -->
+	<string name="menu_item_config">Configuration</string>
+	<string name="menu_item_refresh">Reload</string>
+	<string name="menu_item_exit">Exit</string>
+	<string name="menu_item_archive">Archive</string>
+	<string name="menu_item_goto_today">Display today\'s</string>
+	<string name="menu_item_previous">Previous</string>
+	<string name="menu_item_next">Next</string>
+
+	<!-- Preferences -->
+	<string name="auto_refresh">Automatic update</string>
+	<string name="select_to_auto_refresh">Choose if you want to load new data
+		automatically...</string>
+	<string name="font_size_small">Small</string>
+	<string name="font_size_normal">Middle</string>
+	<string name="font_size_large">Large</string>
+	<string name="font_size">Font size</string>
+	<string name="archive_size_day">One day</string>
+	<string name="archive_size_week">Week</string>
+	<string name="archive_size_month">Month</string>
+	<string name="archive_size_year">Year</string>
+	<string name="archive_size_unlimited">Unlimited</string>
+
+	<string name="choose_font_size">Choose font size</string>
+	<string name="choose_archive_size">Choose archive size</string>
+	<string name="archive_size">
+		Number records to keep. \n
+		<b>Warning: If you change this value, older data will be automatically
+			deleted!!!</b>
+	</string>
+
+	<!--ArticlesListActivity Menu -->
+	<string name="list_of_all_articles">Dayly reading archive</string>
+</resources>
+    
+    

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="font_names">
+		<item>@string/font_size_small</item>
+		<item>@string/font_size_normal</item>
+		<item>@string/font_size_large</item>
+	</string-array>
+	<string-array name="font_values">
+		<item>SMALLER</item>
+		<item>NORMAL</item>
+		<item>LARGER</item>
+	</string-array>
+	
+	<string-array name="archive_size_names">
+		<item>@string/archive_size_day</item>
+		<item>@string/archive_size_week</item>
+		<item>@string/archive_size_month</item>
+		<item>@string/archive_size_year</item>
+		<item>@string/archive_size_unlimited</item>
+	</string-array>
+	<string-array name="archive_size_values">
+		<item>DAY</item>
+		<item>WEEK</item>
+		<item>MONTH</item>
+		<item>YEAR</item>
+		<item>UNLIMITED</item>
+	</string-array>
+</resources>
+ 

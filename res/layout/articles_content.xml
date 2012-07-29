@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:id="@+id/lineItem"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+    <ImageView android:id="@+id/iconLine" android:layout_width="24dip"
+        android:layout_height="24dip" android:layout_alignParentLeft="true" 
+        android:background="@drawable/icon" android:layout_centerVertical="true"/>
+        
+<!--     <ImageView android:background="@drawable/icon" android:id="@+id/bannerImage" -->
+<!--         android:layout_width="fill_parent" android:layout_height="wrap_content" -->
+<!--         android:layout_alignParentTop="true" /> -->
+        
+
+    <TextView android:id="@+id/textLine" android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip" android:textSize="16sp"
+        android:textColor="#ff000000" android:padding="5dp" android:layout_width="wrap_content"
+        android:layout_toRightOf="@+id/iconLine" android:layout_toLeftOf="@+id/dateLine" />
+
+	<TextView android:id="@+id/dateLine" android:gravity="center"
+		android:layout_marginLeft="10dip" android:textSize="12sp" 
+		android:layout_height="wrap_content" android:layout_width="80dip"
+		android:layout_alignParentRight="true"  />
+ 
+</RelativeLayout>
